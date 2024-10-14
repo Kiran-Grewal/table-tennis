@@ -23,11 +23,11 @@ public class BallBehaviour : MonoBehaviour
         float rand = Random.Range(0, 2);
         if (rand < 1)
         {
-            _rb2d.AddForce(new Vector2(20, -10));
+            _rb2d.AddForce(new Vector2(24, -12));
         }
         else
         {
-            _rb2d.AddForce(new Vector2(-20, -10));
+            _rb2d.AddForce(new Vector2(-24, -12));
         }
     }
     public void ResetBall()

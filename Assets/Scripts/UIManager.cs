@@ -61,11 +61,11 @@ public class UIManager : MonoBehaviour
     {
         if (_player1Score == _gameWinScore)
         {
-            _gameOverText.text = "PLAYER 1 WINS";
+            _gameOverText.text = "COMPUTER WINS";
         }
         else if (_player2Score == _gameWinScore)
         {
-            _gameOverText.text = "PLAYER 2 WINS";
+            _gameOverText.text = "PLAYER WINS";
         }
         _gameOverText.gameObject.SetActive(true);
         _ball.GetComponent<BallBehaviour>().ResetBall();
